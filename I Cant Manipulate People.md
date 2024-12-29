@@ -2,7 +2,7 @@
 
 ## By: LK
 ## Challenge Description
-![image](https://github.com/user-attachments/assets/3607e931-3a6d-47e7-a42a-51a6bf6eadc5)
+<img width="323" alt="Challenge" src="https://github.com/user-attachments/assets/3607e931-3a6d-47e7-a42a-51a6bf6eadc5">
 
 ## Write-Up
 The objective of this challenge is to extract a hidden message from a provided PCAP file, which reportedly contains network traffic from a compromised machine. The task involves analyzing packet data to uncover the flag.
@@ -20,15 +20,15 @@ The first 5 ICMP packets display the following bytes in the data section:
 ```57 47 4d 59 7b```
 
 When converted to ASCII, these bytes form the string `WGMY{`. This suggests that the flag is being transmitted through the ICMP packets, with the data section holding the flag's characters.
-![ICMP (Packet 1)](https://github.com/user-attachments/assets/c980ad2b-4020-4b67-bd57-32c49195de6b)
+<img width="323" alt="ICMP (Packet 1)" src="https://github.com/user-attachments/assets/c980ad2b-4020-4b67-bd57-32c49195de6b">
 
-![ICMP (Packet 3)](https://github.com/user-attachments/assets/73115b70-f964-4833-a82b-40dc697590e5)
+<img width="323" alt="ICMP (Packet 3)" src="https://github.com/user-attachments/assets/73115b70-f964-4833-a82b-40dc697590e5">
 
-![ICMP (Packet 5)](https://github.com/user-attachments/assets/48b2bf03-3170-48b5-bc76-3f7e82ae02c8)
+<img width="323" alt="ICMP (Packet 5)" src="https://github.com/user-attachments/assets/48b2bf03-3170-48b5-bc76-3f7e82ae02c8">
 
-![ICMP (Packet 7)](https://github.com/user-attachments/assets/3a382e57-0be5-4687-b2a6-49ba085a5696)
+<img width="323" alt="ICMP (Packet 7)" src="https://github.com/user-attachments/assets/3a382e57-0be5-4687-b2a6-49ba085a5696">
 
-![ICMP (Packet 9)](https://github.com/user-attachments/assets/474f04bc-76b6-4f75-b230-d190b75f78c7)
+<img width="323" alt="ICMP (Packet 9)" src="https://github.com/user-attachments/assets/474f04bc-76b6-4f75-b230-d190b75f78c7">
 
 
 To efficiently extract the bytes from the ICMP packets, the `tshark` command-line tool is used. 
