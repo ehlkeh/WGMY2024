@@ -1,6 +1,7 @@
 # [Cryptography] Credentials
 
 ## By: LK
+## Challenge Description
 <img width="323" alt="Challenge" src="https://github.com/user-attachments/assets/302ec8ad-cf32-4e59-bcc6-85aa938347b8" />
 
 ## Write-Up
