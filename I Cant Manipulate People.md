@@ -96,4 +96,4 @@ The conversion can be done using a tool like [CyberChef](https://cyberchef.org).
 The "From Hex" operation translates the said data into the following flag:
 ![image](https://github.com/user-attachments/assets/2d9584b3-c1c9-43da-9eb0-fb7f134a99b0)
 
-Flag:`WGMY{1e3b71d57e466ab71b43c2641a4b34f4}`
+####Flag:`WGMY{1e3b71d57e466ab71b43c2641a4b34f4}`
