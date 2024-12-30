@@ -14,8 +14,10 @@ The first step in challenges like this is to identify the attached file type so 
 
 To do this, we can use the `file` command in Unix-like machines or use an online file checker like [CheckFileType](https://www.checkfiletype.com/).
 >The `file` command is a Linux/Unix command-line utility used to determine the type of a file based on its content, rather than its filename or extension. It is very helpful when working with unknown or proprietary file formats.
+>
 >Basic syntax:
->file [options] <filename>
+>
+>file [options] \<filename>
 
 ![image](https://github.com/user-attachments/assets/bb6792e4-db10-4577-83a5-34d10b57e6a5)
 
