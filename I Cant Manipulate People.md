@@ -20,6 +20,7 @@ The first 5 ICMP packets display the following bytes in the data section:
 ```57 47 4d 59 7b```
 
 When converted to ASCII, these bytes form the string `WGMY{`. This suggests that the flag is being transmitted through the ICMP packets, with the data section holding the flag's characters.
+
 <img width="323" alt="ICMP (Packet 1)" src="https://github.com/user-attachments/assets/c980ad2b-4020-4b67-bd57-32c49195de6b">
 
 <img width="323" alt="ICMP (Packet 3)" src="https://github.com/user-attachments/assets/73115b70-f964-4833-a82b-40dc697590e5">
