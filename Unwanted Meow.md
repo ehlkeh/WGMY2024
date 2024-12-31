@@ -36,6 +36,7 @@ Going through the file contents in HxD, we can see some weird strings (`meow`) i
 This is definitely very weird and suspicious. Let's remove all the `meow`s with the replace function in HxD and save it.
 ![image](https://github.com/user-attachments/assets/5d706a24-9f6d-481c-801c-93e3937018b3)
 >Click "OK" to proceed with the HxD replace operation when prompted to continue.
+>
 ><img width="200" src="https://github.com/user-attachments/assets/cc74bd46-eaa0-4946-b35d-6395c21295f9">
 
 ![image](https://github.com/user-attachments/assets/5814c1a7-adb7-40fa-8a1c-3fb195fe33cb)
@@ -50,6 +51,8 @@ Let's go through the file contents again to see if we missed anything.
 ![image](https://github.com/user-attachments/assets/0190cc58-eeb3-4f9a-9606-345b55de7f52)
 
 There was some `meow`s that we missed. Checking the original file again, this is because the file data had strings of `memeowow` so when one `meow` was removed. It became `meow` again.
+![image](https://github.com/user-attachments/assets/96d38bfd-1fde-4218-abcb-279371f48ab6)
+
 ![image](https://github.com/user-attachments/assets/443c7993-f4e0-45da-a85e-faebbabebd3b)
 
 Let's remove these last `meow`s, save and open the image file again.
