@@ -51,17 +51,18 @@ Then, an attempt to open the file again was made to check if the image is now fi
 
 The image opens this time, revealing a flag. However, parts of the image, particularly the middle section of the flag, are still distorted.
 
-To investigate further, the file contents are revisited in HxD to identify any overlooked anomalies.
+To investigate further, the file contents are revisited in HxD to identify any overlooked anomalies.It turns out some `meow`s were missed.
 ![image](https://github.com/user-attachments/assets/0190cc58-eeb3-4f9a-9606-345b55de7f52)
 
-It turns out some `meow`s were missed. Upon closer examination of the original file, the issue becomes apparent: certain strings were written as `memeowow`. When one meow was removed, it left behind another `meow`.
-<img width="300" src="https://github.com/user-attachments/assets/96d38bfd-1fde-4218-abcb-279371f48ab6">
-
+Upon closer examination of the original file, the issue becomes apparent: certain strings were written as `memeowow`. When one meow was removed, it left behind another `meow`.
 ![image](https://github.com/user-attachments/assets/443c7993-f4e0-45da-a85e-faebbabebd3b)
 
 To solve this, all `meow` strings are removed again. After saving the changes, the image file is reopened for verification.
 
+<img width="300" src="https://github.com/user-attachments/assets/96d38bfd-1fde-4218-abcb-279371f48ab6">
+
 This time, the flag is shown completely.
+
 ![flag_shredded](https://github.com/user-attachments/assets/a986e52c-f72c-47ba-ad33-02db70cd13c1)
 
 #### Flag: `WGMY{4a4be40c96ac6314e91d93f38043a634}`
