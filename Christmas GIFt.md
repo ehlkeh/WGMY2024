@@ -16,6 +16,7 @@ This hints that it might be a super longgggggg GIF.
 
 To investigate further, we can use video editors like ClipChamp.
 >Clipchamp is a video editing software developed by Microsoft. It is a browser-based tool (accessible online) and also offers a desktop app for Windows.
+
 ![image](https://github.com/user-attachments/assets/526d85f6-e542-4cc0-b5c9-f8f68997ac3a)
 
 As suspected, the GIF is a super long GIF with a length of more than 254 hours.
