@@ -28,3 +28,5 @@ Let's see the last frame in the GIF by dragging the slidor to the far right.
 
 The flag is finally revealed.
 ![image](https://github.com/user-attachments/assets/80beac77-7b01-433f-ba9c-6dcfc4244d84)
+
+#### Flag: `wgmy{1eaa6da7b7f5df6f7c0381c8f23af4d3}`
