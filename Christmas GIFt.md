@@ -9,7 +9,8 @@ We are given a abnormally large GIF file named `gift.gif`. The challenge descrip
 
 However, after opening the GIF for some time, the graphic is changing very slowly and the flag is nowhere to be seen.
 
-Recall that the size of the GIF is 36.6MB. 
+Recall that the size of the GIF is 36.6MB.
+
 ![image](https://github.com/user-attachments/assets/5816cac7-b0b7-4afb-a15e-9b821b53f57c)
 
 This hints that it might be a super longgggggg GIF.
@@ -22,7 +23,7 @@ To investigate further, we can use video editors like ClipChamp.
 As suspected, the GIF is a super long GIF with a length of more than 254 hours.
 ![image](https://github.com/user-attachments/assets/9eefe4d2-ea14-4f80-b246-69eac71c557a)
 
-Let's see the last frame in the GIF.
+Let's see the last frame in the GIF by dragging the slidor to the far right.
 ![image](https://github.com/user-attachments/assets/299bdc98-d99c-4af1-b50b-6a0efdc8dc66)
 
 The flag is finally revealed.
